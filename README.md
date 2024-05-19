@@ -1,9 +1,33 @@
 # Redes-Neurais: Trabalho-Final
 Esse repositório diz respeito ao trabalho final de 'Redes Neurais' do curso de Ciência e Tecnologia da Ilum Escola de Ciência.
 
+### Estratégias adotadas para a execução do trabalho:
+(falar de como tratamos os dados)
+Inicialmente criamos e treinamos uma rede neural com parâmetros arbitrários (mas razoáveis) para avaliar possíveis inconsistências e/ou problemas. Essa etapa foi importante para estabelecer as etapas de trabalho e garantir a reprodutibilidade, evitando P-hacking e "injustiças" na comparação entre as diferentes arquiteturas, que é o objetivo da otimização de hiperparâmetros.
+
+Com isso, as seguintes etapas foram seguidas, para as duas versões do dataset:
+
+* Tratamento dos dados;
+* Análise exploratória;
+* Coleta dos dados (definindo quais colunas são features e qual será o target);
+* Separação em 3 (três) conjuntos: treino, teste e validação. (é importante fixar uma semente aleatória nessa etapa);
+* Um normalizador por máximo absoluto foi aplicado ao conjunto de treino;
+* Os dados foram convertidos em tensores (conversão necessária para o uso do PyTorch Lightning);
+* O PyTorch Lightning permite a criação de DataLoaders que organizam e otimizam o carregamento dos dados;
+* Cria-se uma rede neural MLP (Multi Layer Perceptron) seguindo a sintaxe adotada pelo PyTorch Lightning;
+* Na MLP, define-se o número de dados de entrada (20 e 64, nesse trabalho), número de camadas, número de neurônios (igual para todas as camadas), função de ativação empregada, taxa de dropout (fixa para todas as camadas ocultas), número de dados de saída (1, neste trabalho) e taxa de aprendizado;
+* Utilizando o optuna, foi realizada a otimização dos hiperparâmetros variando os seguintes valores:
+  * Número de camadas
+  * Número de neurônios das camadas
+  * Função de ativação
+  * Taxa de Dropout
+  * Taxa de aprendizado
+* De posse dos conjunto de hiperparâmetros identificados pelo optuna, treinamos a rede neural com o parâmetro de menor erro quadrático médio, e com o conjunto com menor número de parâmetros treináveis;
+* Análise dos resultados, descrita no README.
+  
 ### Organização do repositório:
 * __Pasta 20 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset informações quanto à composição da liga metálica. Esse conjunto de dados está contido no arquivo _df_teste_, que é lido utilizando o módulo _pickle_.
-  
+
 ### Bibliotecas e Módulos utilizados:
 Nesta seção, listamos as bibliotecas e módulos implementados nos códigos neste repositório. A descrição de cada elemento, segue acompanhada de um link para a documentação oficial ou para uma página de tutoria.
 
