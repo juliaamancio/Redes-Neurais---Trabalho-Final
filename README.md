@@ -17,17 +17,18 @@ __OBS:__ Os textos foram gerados por inteligência artificial (ChatGPT) e valida
 https://pandas.pydata.org/docs/
   
 * __pickle:__  módulo em Python que permite a serialização e desserialização de objetos Python, facilitando o armazenamento de dados.
-https://docs.python.org/3/library/pickle.html
+  https://docs.python.org/3/library/pickle.html
   
 * __PyTorch:__ biblioteca de código aberto que oferece suporte para criação de modelos de deep learning, permitindo fácil implementação de redes neurais e computação numérica eficiente em GPUs. https://pytorch.org/docs/stable/index.html
   
 * __PyTorch Lightning:__ biblioteca que simplifica o processo de treinamento de modelos de deep learning com PyTorch, oferecendo uma estrutura organizada e padronizada para experimentação rápida, escalabilidade e reprodução de resultados.
-https://lightning.ai/docs/pytorch/stable/
+  https://lightning.ai/docs/pytorch/stable/
 
 * __csv:__* fornece funcionalidades para ler e escrever arquivos CSV (Comma-Separated Values), permitindo manipulação de dados tabulares.
-https://docs.python.org/3/library/csv.html
+  https://docs.python.org/3/library/csv.html
 
 * __SciPy:__ biblioteca para computação científica e técnica, oferecendo ferramentas para análise de dados, otimização e processamento de sinais.
-https://docs.scipy.org/doc/scipy/
+  https://docs.scipy.org/doc/scipy/
 
-* __Scikit-learn:__ biblioteca para aprendizado de máquina que oferece algoritmos de classificação, regressão, agrupamento e pré-processamento de dados, além de ferramentas para avaliação de modelos e seleção de parâmetros. https://scikit-learn.org/stable/
+* __Scikit-learn:__ biblioteca para aprendizado de máquina que oferece algoritmos de classificação, regressão, agrupamento e pré-processamento de dados, além de ferramentas para avaliação de modelos e seleção de parâmetros.
+  https://scikit-learn.org/stable/
