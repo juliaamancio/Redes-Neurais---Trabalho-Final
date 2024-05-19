@@ -3,6 +3,7 @@ Esse repositório diz respeito ao trabalho final de 'Redes Neurais' do curso de 
 
 ### Estratégias adotadas para a execução do trabalho:
 (falar de como tratamos os dados)
+
 Inicialmente criamos e treinamos uma rede neural com parâmetros arbitrários (mas razoáveis) para avaliar possíveis inconsistências e/ou problemas. Essa etapa foi importante para estabelecer as etapas de trabalho e garantir a reprodutibilidade, evitando P-hacking e "injustiças" na comparação entre as diferentes arquiteturas, que é o objetivo da otimização de hiperparâmetros.
 
 Com isso, as seguintes etapas foram seguidas, para as duas versões do dataset:
