@@ -11,7 +11,7 @@ __OBS:__ Os textos foram gerados por inteligência artificial (ChatGPT) e valida
 
 * __MatPlotLib:__ biblioteca de visualização de dados usada para criar gráficos. https://matplotlib.org/stable/index.html
   
-* __NumPy:__ ferramenta de computação numérica eficiente com suporte a arrays multidimensionais. https://numpy.org/doc/
+* __NumPy:__ biblioteca de computação numérica eficiente com suporte a arrays multidimensionais. https://numpy.org/doc/
   
 * __pandas:__ biblioteca para análise de dados que oferece estruturas de dados e ferramentas de manipulação, simplificando tarefas como limpeza, transformação e análise de conjuntos de dados.
 https://pandas.pydata.org/docs/
@@ -27,6 +27,7 @@ https://lightning.ai/docs/pytorch/stable/
 * __csv:__* fornece funcionalidades para ler e escrever arquivos CSV (Comma-Separated Values), permitindo manipulação de dados tabulares.
 https://docs.python.org/3/library/csv.html
 
-* __SciPy:__ biblioteca para computação científica e técnica, oferecendo ferramentas para análise de dados, otimização e processamento de sinais. https://docs.scipy.org/doc/scipy/
+* __SciPy:__ biblioteca para computação científica e técnica, oferecendo ferramentas para análise de dados, otimização e processamento de sinais.
+https://docs.scipy.org/doc/scipy/
 
 * __Scikit-learn:__ biblioteca para aprendizado de máquina que oferece algoritmos de classificação, regressão, agrupamento e pré-processamento de dados, além de ferramentas para avaliação de modelos e seleção de parâmetros. https://scikit-learn.org/stable/
