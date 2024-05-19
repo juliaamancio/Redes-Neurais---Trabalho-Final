@@ -8,6 +8,7 @@ Esse repositório diz respeito ao trabalho final de 'Redes Neurais' do curso de 
 Nesta seção, listamos as bibliotecas e módulos implementados nos códigos neste repositório. A descrição de cada elemento, segue acompanhada de um link para a documentação oficial ou para uma página de tutoria.
 
 __OBS 1:__ Todos os códigos neste repositório estão em linguagem Python.
+
 __OBS 2:__ Os textos foram gerados por inteligência artificial (ChatGPT) e validados e editados pelos autores deste documento.
 
 * __MatPlotLib:__ biblioteca de visualização de dados usada para criar gráficos. https://matplotlib.org/stable/index.html
