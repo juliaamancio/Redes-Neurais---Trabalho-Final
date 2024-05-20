@@ -1,6 +1,11 @@
 # Redes-Neurais: Trabalho-Final
 Esse repositório diz respeito ao trabalho final de 'Redes Neurais' do curso de Ciência e Tecnologia da Ilum Escola de Ciência.
 
+### Sobre o dataset:
+A proposta do trabalho é prever a temperatura de transição vítrea reduzida $T_{rg}$,, que é definida como:
+$$T_{rg} = \frac{T_g}{T_l}$$, com $T_g$ sendo a temperatura de transição vítrea e $T_l$ sendo a temperatura líquida da liga metálica. Como proposto e comprovado no artigo "Reduced glass transition temperature and glass forming ability
+of bulk glass forming alloys" por Z.P. Lu e Y. Li em 2000, a $T_{rg}$ permite estimar a GFA (Glass Forming Ability) de uma liga. É com base nesse artigo que fundamentamos a relevância científica do presente trabalho.
+
 ### Estratégias adotadas para a execução do trabalho:
 (falar de como tratamos os dados)
 
