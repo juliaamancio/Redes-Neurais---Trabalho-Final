@@ -7,7 +7,7 @@ $$T_{rg} = \frac{T_g}{T_l}$$ com $T_g$ sendo a temperatura de transição vítre
 of bulk glass forming alloys" por Z.P. Lu e Y. Li em 2000, a $T_{rg}$ permite estimar a GFA (Glass Forming Ability) de uma liga. É com base nesse artigo que fundamentamos a relevância científica do presente trabalho.
 
 ### Estratégias adotadas para a execução do trabalho:
-(falar de como tratamos os dados)
+O tratamento dos dados baseou-se na remoção da coluna de 'principal elemento'. Além disso, a coluna de 'Composição do material', que continha dados em strings, foi completamente convertida em novas colunas, nas quais cada uma delas representa um elemento químico e cada célula indicará a fração molar do respectivo elemento a respeito daquele material. Assim, removemos a coluna de 'Composição do material', já que foi completamente convertida. Por fim, removemos todos os dados 'Not a Number' possíveis, caso existissem.
 
 Inicialmente criamos e treinamos uma rede neural com parâmetros arbitrários (mas razoáveis) para avaliar possíveis inconsistências e/ou problemas. Essa etapa foi importante para estabelecer as etapas de trabalho e garantir a reprodutibilidade, evitando P-hacking e "injustiças" na comparação entre as diferentes arquiteturas, que é o objetivo da otimização de hiperparâmetros.
 
