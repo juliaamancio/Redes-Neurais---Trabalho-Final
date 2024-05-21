@@ -98,3 +98,5 @@ https://scikit-learn.org/stable/
 [5] SHAHANE, Saurabh. Metallic Glass Forming: Predict the Reduced Glass Transition Temperature. Disponível em: https://www.kaggle.com/datasets/saurabhshahane/metallic-glass-forming. Acesso em: 21 maio 2024.
 
 [6] Lu, Z. P., Li, Y., & Ng, S. C. Reduced glass transition temperature and glass forming ability of bulk glass forming alloys. Department of Materials Science, Faculty of Science, National University of Singapore. Received 9 September 1999; revised 5 November 1999.
+
+[7] PRAKASH, P.; AKASH, Ravi; KAILASHNATH, N. Prediction of reduced glass transition temperature using machine learning. In: DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING, Amrita School of Engineering, Coimbatore, Amrita Vishwa Vidyapeetham, India.
