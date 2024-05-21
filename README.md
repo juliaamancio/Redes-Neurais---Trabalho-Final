@@ -83,7 +83,11 @@ https://scikit-learn.org/stable/
 ### Referências bibliográficas
  
 [1] COSTA, Breno Pontes da. Predição de resultados em partidas de League of Legends usando redes neurais e análise SHAP. 2023. Trabalho de Conclusão de Curso (Bacharelado em Ciência da Computação) – Instituto de Computação, Universidade Federal do Rio de Janeiro, Rio de Janeiro, 2023.
+
 [2] MALTA, Fernando Augusto Melo Duarte. Redes Neurais para Dados Tabulares: Uma Comparação Empírica. 2022. Trabalho de Conclusão de Curso (Graduação em Estatística) – Instituto de Ciências Exatas, Departamento de Estatística, Universidade Federal de Minas Gerais, Belo Horizonte, 2022.
+
 [3] Cassar, Daniel(2024). ATP-303 NN 5.3 - Notebook PyTorch Lightning.ipynb. Retirado dos arquivos de Redes Neurais e Algoritimos Genéticos da Ilum - Escola de Ciência.
+
 [4] Cassar, Daniel(2024). ATP-303 NN 5.2 - Notebook PyTorch.ipynb. Retirado dos arquivos de Redes Neurais e Algoritimos Genéticos da Ilum - Escola de Ciência.
+
 [5] SHAHANE, Saurabh. Metallic Glass Forming: Predict the Reduced Glass Transition Temperature. Disponível em: https://www.kaggle.com/datasets/saurabhshahane/metallic-glass-forming. Acesso em: 21 maio 2024.
