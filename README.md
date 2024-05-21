@@ -6,8 +6,8 @@ Davi José, Gabriel Torquato e Júlia Amancio. :D
  
 ### Organização do repositório:
 * __Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, apresentação do dataset, descrição do repositórios e bibliotecas, além das referências bibliográficas.
-* __Pasta 20 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset informações quanto à composição da liga metálica. Esse conjunto de dados está contido no arquivo _df_teste_, que é lido utilizando o módulo _pickle_. 
-* __Pasta 64 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset informações quanto à composição da liga metálica, em que contém as colunas com todos os elementos químicos presentes no dataset. Esse conjunto de dados está contido no arquivo _df_novo_, que é lido utilizando o módulo _pickle_.
+* __Pasta 20 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset sem a informação de fração molar dos elementos que compõem a liga metálica. Esse conjunto de dados está contido no arquivo _df_teste_, que é lido utilizando o módulo _pickle_. 
+* __Pasta 64 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset com a informação da fração molar de cada elemento que compõe a liga metálica, em que contém as colunas com todos os elementos químicos presentes no dataset. Esse conjunto de dados está contido no arquivo _df_novo_, que é lido utilizando o módulo _pickle_.
 * __Notebook didático__: Nesse notebook foi retratado um exemplo de treinamento de uma rede simples para a explicação do funcionamento da rede neural em relação à sua arquitetura e modo de previsão. Ele serve como guia para os demais notebooks presentes nas pastas de 20 features e 64 features.
 * __Tratamento de dados__: Refere-se a um notebook contendo os dados tratados e com uma análise exploratória a partir dele.
 * __metallic_glass.csv__: Refere-se ao dataset original contendo todos os dados.
@@ -26,7 +26,7 @@ $$T_{rg} = \frac{T_g}{T_l}$$ com $T_g$ sendo a temperatura de transição vítre
 of bulk glass forming alloys" por Z.P. Lu e Y. Li em 2000 [6], a $T_{rg}$ permite estimar a GFA (Glass Forming Ability) de uma liga. É com base nesse artigo que fundamentamos a relevância científica do presente trabalho.
  
 ### Sobre o dataset:
-O dataset aborda um total de 23 colunas, sendo 22 features e 1 target (Trg - temperatura de transição vítrea reduzida), contendo 585 exemplos (linhas). As features dizem respeito a valores obtidos para 585 tipos de materiais diferentes criados. De modo geral, as features são divididas em dois grupos: features relacionadas ao material de maneira geral e features relacionadas ao elemento predominante/principal da composição.
+O dataset aborda um total de 23 colunas, sendo 22 features e 1 target (Trg - temperatura de transição vítrea reduzida), contendo 585 exemplos (linhas). As features dizem respeito a valores obtidos para 585 tipos de materiais diferentes criados. De modo geral, as features são divididas em dois grupos: features que são características da liga e features relacionadas ao elemento predominante/principal da composição da liga.
  
 ### Estratégias adotadas para a execução do trabalho:
 O tratamento dos dados baseou-se na remoção da coluna de 'principal elemento'. Além disso, a coluna de 'Composição do material', que continha dados em strings, foi completamente convertida em novas colunas, nas quais cada uma delas representa um elemento químico e cada célula indicará a fração molar do respectivo elemento a respeito daquele material. Assim, removemos a coluna de 'Composição do material', já que foi completamente convertida. Por fim, removemos todos os dados 'Not a Number' possíveis, caso existissem.
