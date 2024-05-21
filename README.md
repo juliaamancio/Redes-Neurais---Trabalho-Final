@@ -52,7 +52,13 @@ Com isso, as seguintes etapas foram seguidas, para as duas versões do dataset:
   * Taxa de aprendizado
 * De posse dos conjunto de hiperparâmetros identificados pelo optuna, treinamos a rede neural com o parâmetro de menor erro quadrático médio, e com o conjunto com menor número de parâmetros treináveis;
 * Análise dos resultados, descrita no README.
- 
+
+### Perspectivas Futuras:
+* Melhorar a representação dos dados considerando a estrura de tensores adotada pelo PyTorch. Isso é interessante para considerar o número de algarismos significativos condizente com os dados de entrada.
+* Melhorar a análise SHAP buscando interpretar a correlação entre as features e o target.
+* Buscar outros conjuntos de dados com valores não catalogados no dataset utilizado para testar a robustez do nosso modelo.
+* Buscar detalhes sobre as escalas numéricas adotadas nas features.
+  
 ### Bibliotecas e Módulos utilizados:
 Nesta seção, listamos as bibliotecas e módulos implementados nos códigos neste repositório. A descrição de cada elemento, segue acompanhada de um link para a documentação oficial ou para uma página de tutoria.
  
