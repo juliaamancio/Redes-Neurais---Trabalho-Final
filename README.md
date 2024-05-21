@@ -5,7 +5,7 @@ Esse repositório diz respeito ao trabalho final de 'Redes Neurais' do curso de 
 Davi José, Gabriel Torquato e Júlia Amancio. :D
  
 ### Organização do repositório:
-*__Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, apresentação do dataset, descrição do repositórios e bibliotecas, além das referências bibliográficas.
+* __Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, apresentação do dataset, descrição do repositórios e bibliotecas, além das referências bibliográficas.
 * __Pasta 20 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset informações quanto à composição da liga metálica. Esse conjunto de dados está contido no arquivo _df_teste_, que é lido utilizando o módulo _pickle_. 
 * __Pasta 64 features:__ Nessa pasta estão contidos os arquivos em que trabalhamos com o dataset informações quanto à composição da liga metálica, em que contém as colunas com todos os elementos químicos presentes no dataset. Esse conjunto de dados está contido no arquivo _df_novo_, que é lido utilizando o módulo _pickle_.
 * __Notebook didático__: Nesse notebook foi retratado um exemplo de treinamento de uma rede simples para a explicação do funcionamento da rede neural em relação à sua arquitetura e modo de previsão. Ele serve como guia para os demais notebooks presentes nas pastas de 20 features e 64 features.
