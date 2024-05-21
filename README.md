@@ -23,11 +23,10 @@ __OBS 1:__ O notebook 'Testando e Avaliando as Redes' para ambas as pastas (20 f
 ### Objetivo do trabalho:
 A proposta do trabalho é prever a temperatura de transição vítrea reduzida $T_{rg}$,, que é definida como:
 $$T_{rg} = \frac{T_g}{T_l}$$ com $T_g$ sendo a temperatura de transição vítrea e $T_l$ sendo a temperatura líquida da liga metálica. Como proposto e comprovado no artigo "Reduced glass transition temperature and glass forming ability
-of bulk glass forming alloys" por Z.P. Lu e Y. Li em 2000, a $T_{rg}$ permite estimar a GFA (Glass Forming Ability) de uma liga. É com base nesse artigo que fundamentamos a relevância científica do presente trabalho.
+of bulk glass forming alloys" por Z.P. Lu e Y. Li em 2000 [6], a $T_{rg}$ permite estimar a GFA (Glass Forming Ability) de uma liga. É com base nesse artigo que fundamentamos a relevância científica do presente trabalho.
  
 ### Sobre o dataset:
 O dataset aborda um total de 23 colunas, sendo 22 features e 1 target (Trg - temperatura de transição vítrea reduzida), contendo 585 exemplos (linhas). As features dizem respeito a valores obtidos para 585 tipos de materiais diferentes criados. De modo geral, as features são divididas em dois grupos: features relacionadas ao material de maneira geral e features relacionadas ao elemento predominante/principal da composição.
- 
  
 ### Estratégias adotadas para a execução do trabalho:
 O tratamento dos dados baseou-se na remoção da coluna de 'principal elemento'. Além disso, a coluna de 'Composição do material', que continha dados em strings, foi completamente convertida em novas colunas, nas quais cada uma delas representa um elemento químico e cada célula indicará a fração molar do respectivo elemento a respeito daquele material. Assim, removemos a coluna de 'Composição do material', já que foi completamente convertida. Por fim, removemos todos os dados 'Not a Number' possíveis, caso existissem.
@@ -91,3 +90,5 @@ https://scikit-learn.org/stable/
 [4] Cassar, Daniel(2024). ATP-303 NN 5.2 - Notebook PyTorch.ipynb. Retirado dos arquivos de Redes Neurais e Algoritimos Genéticos da Ilum - Escola de Ciência.
 
 [5] SHAHANE, Saurabh. Metallic Glass Forming: Predict the Reduced Glass Transition Temperature. Disponível em: https://www.kaggle.com/datasets/saurabhshahane/metallic-glass-forming. Acesso em: 21 maio 2024.
+
+[6] Lu, Z. P., Li, Y., & Ng, S. C. Reduced glass transition temperature and glass forming ability of bulk glass forming alloys. Department of Materials Science, Faculty of Science, National University of Singapore. Received 9 September 1999; revised 5 November 1999.
